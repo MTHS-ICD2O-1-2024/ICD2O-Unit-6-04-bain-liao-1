@@ -12,21 +12,20 @@ function calculateVolumeOfSphere() {
   const params = new URLSearchParams(document.location.search)
 
   // input
-  const radiusOfSphere = params.get('radius-of-sphere')
-  console.log(radiusOfSphere)
+  const radius = params.get('radius')
+  console.log(radius)
 
-  // proccess
-  const volumeOfSphere = (4 / 3) * (Math.PI) * (radiusOfSphere ** 3)
-  const radius = radiusOfSphere
+  // process
+  const radiusOfSphere = parseFloat(radius)
+  const volumeOfSphere = (4 / 3) * Math.PI * (radiusOfSphere ** 3)
 
   // output
   document.getElementById('volume').innerHTML = "Volume is: " + volumeOfSphere.toFixed(2) + "mm³"
-  document.getElementById('radius-of-sphere').innerHTML = radius
-  
+  document.getElementById('radius').innerHTML = radiusOfSphere + "mm"
 }
 
 // On page load, display radius
 window.onload = function() {
-  document.getElementById('radius-of-sphere').innerHTML = 0 + "mm"
+  document.getElementById('radius').innerHTML = 0 + "mm"
   document.getElementById('volume').innerHTML = "Volume is: " + 0 + "mm³"
 }
