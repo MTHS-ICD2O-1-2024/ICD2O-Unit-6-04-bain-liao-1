@@ -1,4 +1,4 @@
-# ICS2O
+# ICS2O Unit #6-04
 
 [![Mr Coxall's Super Linter](https://github.com/MTHS-ICD2O-1-2024/ICD2O-Unit-6-04-bain-liao-1/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/MTHS-ICD2O-1-2024/ICD2O-Unit-6-04-bain-liao-1/actions)
 

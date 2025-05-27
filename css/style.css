@@ -4,8 +4,8 @@
 */
 
 .mdl-layout__header-row {
-  justify-content: left;
-  padding: 1;
+  justify-content: center;
+  padding: 0;
 }
 
 .mdl-layout__content {
@@ -15,17 +15,17 @@
 }
 
 .mdl-textfield__error {
-  color: rgb(224, 85, 85);
+  color: #F00;
 }
 
 .page-content {
-  color: rgb(0, 0, 0);
+  color: #000;
   font-family: "Times New Roman", Times, monospace;
   font-size: 1.25rem;
 }
 
 body {
-  background-color: rgb(219, 248, 250);
+  background-color: #dbf8fa;
 }
 
 img {
